@@ -29,6 +29,9 @@
       font-size: 2.5rem;
       font-weight: 800;
       color: #10b981;
+      display: flex;
+      align-items: center;
+      gap: 12px;
     }
     h2 {
       font-size: 1.5rem;
@@ -64,6 +67,32 @@
     button:hover {
       background: #059669;
     }
+    .leaderboard {
+      margin-top: 32px;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 24px;
+    }
+    .leaderboard h3 {
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+    }
+    .leaderboard ol {
+      list-style: none;
+      padding: 0;
+    }
+    .leaderboard li {
+      background: #f9fafb;
+      padding: 10px 16px;
+      margin-bottom: 8px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 500;
+    }
+    .logo {
+      width: 36px;
+      height: 36px;
+    }
     footer {
       text-align: center;
       margin-top: 60px;
@@ -74,7 +103,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>$MENTA</h1>
+    <h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Eo_circle_green_blank.svg/2048px-Eo_circle_green_blank.svg.png" alt="Logo" class="logo">$MENTA</h1>
     <p>The first token backed by cognitive effort.</p>
 
     <h2>Join the Experiment</h2>
@@ -95,6 +124,17 @@
 
     <h2>About Amy Orben</h2>
     <p>Cognitive scientist exploring the intersection of attention, digital well-being and decentralized systems. This project is part research, part experiment, and part cultural disruption.</p>
+
+    <div class="leaderboard">
+      <h3>Top 5 MENTA Contributors</h3>
+      <ol>
+        <li><span>@cyberfocus</span><span>247 pts</span></li>
+        <li><span>@mindchain</span><span>203 pts</span></li>
+        <li><span>@0xclarity</span><span>182 pts</span></li>
+        <li><span>@zenmode</span><span>159 pts</span></li>
+        <li><span>@slowalpha</span><span>141 pts</span></li>
+      </ol>
+    </div>
   </div>
 
   <footer>
